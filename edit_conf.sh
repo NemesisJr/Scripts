@@ -16,7 +16,7 @@ quit")
 
 #choice=$(echo -e "${options[@]}" | dmenu -g 5 -l 5 -fn 'Hermit:size=10' -p 'Edit file: ' -nb '#222222' -nf '#b8b8b8' -sb '#007687' -sf '#222222')
 #choice=$(echo -e "${options[@]}" | rofi -dmenu -p 'Edit config file: ')
-choice="$(echo -e "${options[@]}" | fzf --prompt="Select a File : " --border=sharp --color=dark --height 100% --reverse --header="           CONFIGS " --info=hidden --header-first)"
+choice="$(echo -e "${options[@]}" | fzf --prompt="Select a File : " --border=sharp --color=dark --height 30% --reverse --header="           CONFIGS " --info=hidden --header-first)"
 
 case "$choice" in
     quit)
