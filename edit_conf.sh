@@ -60,7 +60,7 @@ case "$choice" in
         choice="$HOME/.config/bspwm/xsettingsd"
         ;;
     zsh)
-        choice="$HOME/.config/zsh/.zshrc"
+        choice="$HOME/.zshrc"
         ;;
     *)
         exit 1
