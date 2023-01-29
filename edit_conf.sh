@@ -27,7 +27,7 @@ case "$choice" in
         choice="$HOME/.config/alacritty/alacritty.yml"
         ;;
     bash)
-        choice="$HOME/.config/bash/.bashrc"
+        choice="$HOME/.bashrc"
         ;;
     bspwm)
         choice="$HOME/.config/bspwm/bspwmrc"
